@@ -7,3 +7,9 @@
   line-height: 1;
   padding: 60px 0;
 }
+
+.footer__copyright {
+  margin: 0;
+  color: #212121b2;
+  text-align: center;
+}

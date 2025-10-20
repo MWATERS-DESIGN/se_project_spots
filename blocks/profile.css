@@ -18,6 +18,7 @@
 
 .profile__name {
   margin: 0 0 12px;
+  color: #212121;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -31,6 +32,7 @@
 
 .profile__description {
   margin: 0;
+  color: #212121b2;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
@@ -53,6 +55,7 @@
   display: flex;
   align-self: flex-start;
   border: none;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
@@ -69,12 +72,14 @@
   margin-left: auto;
   font-weight: 500;
   font-size: 16px;
-  margin-top: 138px;
+  align-self: flex-end;
   background-color: #212121;
   border-radius: 8px;
+  border: none;
   width: 149px;
   height: 52px;
   color: #fcf5e5;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {

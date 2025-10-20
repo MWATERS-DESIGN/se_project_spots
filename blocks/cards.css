@@ -1,15 +1,15 @@
 .cards {
-  padding-top: 20px;
+  padding: 20px 0 40px;
+  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
 
 .cards__lists {
   list-style-type: none;
-  padding: 0 0 40px;
   margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, 413px);
   justify-content: center;
-  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
   gap: 40px 20px;
 }
 
