@@ -1,21 +1,31 @@
 # Project 3: Spots
 
-### Overview  
+An image sharing website.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## Description
+
+The spots application is a social media platform which allows users to create a unique profile, share moments through photos and connect with others throughout the world. It was created to be accessible on various devices and screen sizes. It was
+created based on the design layout on figma linked below.
+
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+## Tech Stack
+
+- Semantic HTML5
+- Flexbox
+- Gridbox
+- Positioning
+- Flat BEM file structure
+- Media Queries/Responsive Design
+- CSS Hover Effects
+- CSS Hiding Text Overflow
+
+## Plans on Improving the project
+
+1. Allow users to add videos to their profile grid.
+
+## Deployment
+
+This webpage is deployed to GitHub Pages.
+
+- Deployment Link:
