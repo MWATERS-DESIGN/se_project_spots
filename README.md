@@ -29,3 +29,7 @@ created based on the design layout on figma linked below.
 This webpage is deployed to GitHub Pages.
 
 - [Deployment Link](https://mwaters-design.github.io/se_project_spots/)
+
+## Project Pitch Video
+
+Check out [this video](https://www.loom.com/share/dd7e49a32f08489c93ab2fd9ebc2e733?sid=77d47071-b0e3-4058-bb8b-57ad5d00bf7c), where I describe my project and some challenges I faced while building it.
