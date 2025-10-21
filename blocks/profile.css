@@ -59,9 +59,7 @@
 }
 
 .profile__edit-button:hover {
-  color: #212121;
   opacity: 100%;
-  cursor: pointer;
 }
 
 .profile__edit-pencil {
@@ -83,9 +81,7 @@
 }
 
 .profile__add-button:hover {
-  background-color: #212121;
   opacity: 80%;
-  cursor: pointer;
 }
 
 .profile__plus-logo {
