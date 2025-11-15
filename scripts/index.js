@@ -20,20 +20,28 @@ const profileDescriptionEl = document.querySelector(".profile__description");
 editProfileBtn.addEventListener("click", function () {
   editNameInput.value = profileNameEl.textContent;
   editDescriptionInput.value = profileDescriptionEl.textContent;
-  editProfileModal.classList.add("modal_is-opened");
+  openModal(editProfileModal);
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
-  editProfileModal.classList.remove("modal_is-opened");
+  closeModal(editProfileModal);
 });
 
 newPostBtn.addEventListener("click", function () {
-  newPostModal.classList.add("modal_is-opened");
+  openModal(newPostModal);
 });
 
 newPostCloseBtn.addEventListener("click", function () {
-  newPostModal.classList.remove("modal_is-opened");
+  closeModal(newPostModal);
 });
+
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
 
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
@@ -46,9 +54,11 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log("Paste a link to the picture");
-  console.log("Type your caption");
-  newPostModal.classList.remove("modal_is-opened");
+  evt.target.reset();
+  console.log(newPostCardInput.value);
+  console.log(newPostCaptionInput.value);
+  closeModal(newPostModal);
+  evt.target.reset();
 }
 
 newPostForm.addEventListener("submit", handleAddCardSubmit);
