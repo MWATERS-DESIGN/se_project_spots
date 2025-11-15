@@ -54,7 +54,6 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  evt.target.reset();
   console.log(newPostCardInput.value);
   console.log(newPostCaptionInput.value);
   closeModal(newPostModal);
