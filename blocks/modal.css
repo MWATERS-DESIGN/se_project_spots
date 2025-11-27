@@ -1,7 +1,7 @@
 .modal {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0.5s linear 0.5s, opacity 0.5s linear;
+  transition: visibility 0.5s linear, opacity 0.5s linear;
   background-color: #00000080;
   position: fixed;
   top: 0;
@@ -46,7 +46,7 @@
   background-repeat: no-repeat;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  opacity: 0.4;
   cursor: pointer;
 }
 
@@ -61,7 +61,7 @@
   height: 40px;
   background-color: transparent;
   border: none;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .modal__close-btn:hover {
@@ -69,7 +69,7 @@
 }
 
 .modal__close-btn_type_preview:hover {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .modal__title {
@@ -100,9 +100,8 @@
   margin: 8px 0 0;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid rgba(33, 33, 33, 0.4);
+  border: 1px solid #21212166;
   border-radius: 8px;
-  border-color: #21212166;
   padding: 16px 12px;
   font-weight: 500;
   font-size: 20px;
@@ -116,7 +115,7 @@
   padding: 18px 58px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid;
+  border: none;
   background-color: #212121;
   color: #fcf5e5;
   cursor: pointer;
@@ -164,11 +163,6 @@
     right: 12px;
   }
 
-  .modal__close-btn_type_preview {
-    top: -48px;
-    right: 0;
-  }
-
   .modal__label {
     margin: 0 0 24px;
   }
@@ -200,6 +194,6 @@
   }
 
   .modal__image {
-    max-width: unset;
+    max-width: 100vw;
   }
 }
