@@ -30,6 +30,10 @@ This webpage is deployed to GitHub Pages.
 
 - [Deployment Link](https://mwaters-design.github.io/se_project_spots/)
 
-## Project Pitch Video
+## Project Pitch Videos
 
-Check out [this video](https://www.loom.com/share/dd7e49a32f08489c93ab2fd9ebc2e733?sid=77d47071-b0e3-4058-bb8b-57ad5d00bf7c), where I describe my project and some challenges I faced while building it.
+Check out these videos, where I describe my project
+and some challenges I faced while building it:
+
+- [Adding Responsive Design](https://www.loom.com/share/dd7e49a32f08489c93ab2fd9ebc2e733?sid=77d47071-b0e3-4058-bb8b-57ad5d00bf7c)
+- [Adding Validation/UX](https://www.loom.com/share/647e7bd9a67c46889a6b860bde0b27e1)
