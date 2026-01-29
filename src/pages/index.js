@@ -41,7 +41,7 @@ const editProfileSubmitBtn =
 const editProfileForm = editProfileModal.querySelector(".modal__form");
 const editNameInput = editProfileModal.querySelector("#profile-name-input");
 const editDescriptionInput = editProfileModal.querySelector(
-  "#profile-description-input"
+  "#profile-description-input",
 );
 
 const newPostBtn = document.querySelector(".profile__add-button");
@@ -63,7 +63,7 @@ const deleteModal = document.querySelector("#delete-modal");
 const deleteForm = deleteModal.querySelector(".modal__form");
 const deleteModalCloseBtn = deleteModal.querySelector(".modal__close-btn");
 const deleteModalCancelBtn = deleteModal.querySelector(
-  ".modal__submit-btn_cancel"
+  ".modal__submit-btn_cancel",
 );
 
 const previewModal = document.querySelector("#preview-modal");
@@ -158,7 +158,7 @@ function getCardElement(data) {
 
   cardLikeBtnEl.addEventListener("click", (evt) => handleLike(data._id, evt));
   cardDeleteBtnEl.addEventListener("click", () =>
-    handleDeleteCard(cardElement, data._id)
+    handleDeleteCard(cardElement, data._id),
   );
   cardImageEl.addEventListener("click", () => handleImageClick(data));
 
@@ -213,7 +213,7 @@ function handleEditProfileSubmit(evt) {
       resetValidation(
         editProfileForm,
         [editNameInput, editDescriptionInput],
-        settings
+        settings,
       );
     })
     .catch((err) => {
@@ -226,6 +226,8 @@ function handleEditProfileSubmit(evt) {
 
 editProfileBtn.addEventListener("click", function () {
   openModal(editProfileModal);
+  editNameInput.value = profileNameEl.textContent;
+  editDescriptionInput.value = profileDescriptionEl.textContent;
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
@@ -251,7 +253,7 @@ function handleAddCardSubmit(evt) {
       resetValidation(
         newPostForm,
         [newPostCaptionInput, newPostCardInput],
-        settings
+        settings,
       );
       evt.target.reset();
     })
